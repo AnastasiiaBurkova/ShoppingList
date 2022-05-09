@@ -1,0 +1,7 @@
+<% layout("./layouts/layout.eta") %>
+<h1>Shared shopping lists</h1>
+<ul>
+    <li>Shopping lists: <%= it.numOfShopLists %></li>
+    <li>Shopping list items: <%= it.numOfShopListItems %></li>
+</ul>
+<a href="/lists">Lists</a>
