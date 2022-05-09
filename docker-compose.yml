@@ -35,5 +35,3 @@ services:
 build:
   docker:
     web: shopping-lists/Dockerfile
-run:
-  web: bundle exec puma -C config/puma.rb
